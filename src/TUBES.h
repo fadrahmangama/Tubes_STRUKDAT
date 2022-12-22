@@ -26,7 +26,7 @@ void printStack(Stack S);
 
 //ADT Queue
 typedef char infotypeQ;
-typedef elmQueue *addressQ;
+typedef struct elmQueue *addressQ;
 
 struct elmQueue{
     infotypeQ info;
